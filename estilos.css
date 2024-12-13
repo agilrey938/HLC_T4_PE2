@@ -1,0 +1,72 @@
+body{
+    background-color: #E2E5E7;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 0%;
+    margin: 0%;
+    display: flex
+
+}
+.menu{
+    background-color: #85CEF0;
+    padding: 50px;
+    min-height: 100vh;
+    margin-right: 100px;
+
+}
+
+button{
+    padding: 5% 50px;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.menu button:hover {
+    background-color: #EAFFD2;
+}
+
+.tab{
+    display: none;
+}
+
+.tab.active{
+    margin-top: 5%;
+    display: block;
+    background-color: #F8F8FF;
+    height: 600px;
+    width: 50%;
+    margin-left: 100px;
+    box-shadow: 2px 3px 10px grey;
+}
+
+.mensaje{
+    border: 1px solid gainsboro;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+.form-btn{
+    background-color: #F9DC6A;
+    padding: 15px;
+    margin-left: 15px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.chat{
+    display: inline-block;
+    overflow-y: auto; height: 90%;
+}
+
+.contenido{
+    background-color: #E2E5E7;
+    align-self: flex-start;
+    margin: 10px;
+}
+
+.messages{
+    background-color: #E0F8FC;
+    align-self: flex-end;
+}
